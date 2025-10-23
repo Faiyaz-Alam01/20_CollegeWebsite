@@ -23,8 +23,8 @@ function Header() {
         </div>
        <ul className='md:flex gap-8 hidden text-lg font-medium cursor-pointer'>
          <li><a href=""></a>Home </li>
-         <li><a href=""></a>Program</li>
-         <li><a href=""></a>About Us</li>
+         <li><a href={Program}></a>Program</li>
+         <li><a href="About"></a>About Us</li>
          <li><a href=""></a>Campus</li>
          <li><a href=""></a>Testimonial</li>
          <li><a href=""><button className='bg-white px-4 py-1 text-black rounded-full'>Contact Us</button></a></li>
